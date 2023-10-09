@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body {
+    width: 1440px;
+    margin: auto;
+    background-color: #FFF;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 710px;
+    height: 990px;
+    background: #E2F0FF;
+}
+
+.left .img {
+    background-image: url(../assets/1.svg);
+    width: 524px;
+    height: 391px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.left h3 {
+    width: 400px;
+    color: #292731;
+    text-align: center;
+    font: 600 26px Poppins;
+    margin-top: 56px;
+    margin-bottom: 23px;
+}
+
+.left p {
+    width: 386px;
+    color: #455360;
+    text-align: center;
+    font: 400 16px Poppins;
+}
+
+.right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 730px;
+    height: 990px;
+}
+
+.right .info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 440px;
+    height: 388px;
+    margin-left: 135px;
+}
+
+.right .welcome {
+    margin-bottom: 62px;
+}
+
+.right .welcome .img-hand {
+    background-image: url(../assets/waving-hand.svg);
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.right .welcome h1 {
+    color: #292731;
+    font: 600 30px Poppins;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.right .info p {
+    color: #292731;
+    font: 400 16px Poppins;
+    margin-bottom: 10px;
+}
+
+.right .mail-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 440px;
+}
+
+.mail-info .img-info {
+    background-image: url(../assets/information.svg);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.right .info input {
+    width: 280px;
+    height: 48px;
+    border-radius: 4px;
+    background: #ECF2F7;
+    padding: 12px 137px 9px 22px;
+    color: #7B8389;
+    font: 400 16px Poppins;
+    margin-bottom: 30px;
+}
+
+.right button {
+    width: 440px;
+    height: 54px;
+    border-radius: 8px;
+    background: #4C70FF;
+    margin-left: 135px;
+    margin-top: 44px;
+    padding: 10px;
+    color: #FFF;
+    font: 500 20px Poppins;
+}
+
+.right button:hover {
+    background-color: #0a1955;
+}
+
+.right .connection {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    width: 265px;
+    margin-top: 19px;
+    margin-left: 227px;
+}
+
+.connection p {
+    color: #292731;
+    font: 500 16px Poppins;
+    margin-right: 5px;
+}
+
+.connection a {
+    color: #66BCE8;
+    font: 500 16px Poppins;
+}
